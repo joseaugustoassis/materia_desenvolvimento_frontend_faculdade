@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hinos de clubes brasileiros</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-dark text-light p-4">
+    <div class="container">
+      <h1>Hinos - Times brasileiros</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="#secao1">Corinthians</a></li>
+          <li class="nav-item"><a class="nav-link" href="#secao2">Grêmio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#secao3">Flamengo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section id="secao1" class="bg-light py-5">
+      <div class="container">
+        <h2>Corinthians</h2>
+        <p>Salve o Corinthians
+            O campeão dos campeões
+            Eternamente
+            Dentro dos nosso corações
+            Salve o Corinthians
+            De tradições e glórias mil
+            Tu és orgulho
+            Dos desportistas do Brasil</p>
+      </div>
+    </section>
+    
+    <section id="secao2" class="bg-info py-5 text-light">
+      <div class="container">
+        <h2>Grêmio</h2>
+        <p>Até a pé nós iremos
+            Para o que der e vier
+            Mas o certo é que nós estaremos
+            Com o Grêmio onde o Grêmio estiver</p>
+      </div>
+    </section>
+    
+    <section id="secao3" class="bg-danger py-5">
+      <div class="container">
+        <h2>Flamengo</h2>
+        <p>Uma vez Flamengo
+            Sempre Flamengo
+            Flamengo sempre eu hei de ser</p>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="bg-dark text-light text-center py-3">
+    <div class="container">
+      &copy; <span id="ano-atual"></span> Produzido por José Augusto Assis
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("ano-atual").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
